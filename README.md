@@ -90,3 +90,53 @@ Lazy Loading - Instead of loading all the assets at once, the non-critical asset
 <ins> - displays as added text
   
 13. What are the different kinds of Doctypes available?
+
+  The three kinds of Doctypes which are available:
+
+Strict Doctype 
+Transitional Doctype
+Frameset Doctype
+14. Please explain how to indicate the character set being used by a document in HTML?
+The character set is defined in <meta> tag inside <head> element.
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   ...
+   ...
+ </head>
+ ...
+</html>
+  
+15. What is the difference between <strong>, <b> tags and <em>, <i> tags?
+  
+The effect on a normal webpage of the tags <strong>, <b>  and <em>, <i> is the same. <b> and <i> tags stands for bold and italic. These two tags only apply font styling and bold tag <b>, just adds more ink to the text, these tags don't say anything about the text.
+
+Whereas, <strong> and <em> tags represent that the span of text is of strong importance or more importance and emphatic stress respectively than the rest of the text. These tags have semantic meaning.
+
+16. What is the significance of <head> and <body> tag in HTML?
+  
+<head> tag provides the information about the document. It should always be enclosed in the <html> tag. This tag contains the metadata about the webpage and the tags which are enclosed by head tag like <link>, <meta>, <style>, <script>, etc. are not displayed on the web page. Also, there can be only 1 <head> tag in the entire Html document and will always be before the <body> tag.
+
+<body> tag defines the body of the HTML document. It should always be enclosed in the <html> tag. All the contents which needs to be displayed on the web page like images, text, audio, video, contents, using elements like <p>, <img>, <audio>, <heading>, <video>, <div>, etc. will always be enclosed by the <body> tag. Also, there can be only 1 body element in an HTML document and will always be after the <head> tag.
+
+17. Can we display a web page inside a web page or Is nesting of webpages possible?
+  
+Yes, we can display a web page inside another HTML web page. HTML provides a tag <iframe> using which we can achieve this functionality.
+
+<iframe src=”url of the web page to embed” />
+  
+18. How is Cell Padding different from Cell Spacing?
+  
+Cell Spacing is the space or gap between two consecutive cells. Whereas, Cell Padding is the space or gap between the text/ content of the cell and the edge/ border of the cell. Please refer to the above figure example to find the difference.
+
+19. How can we club two or more rows or columns into a single row or column in an HTML table?
+  
+HTML provides two table attributes “rowspan” and “colspan” to make a cell span to multiple rows and columns respectively.
+
+20. Is it possible to change an inline element into a block level element?
+  
+Yes, it is possible using the “display” property with its value as “block”, to change the inline element into a block-level element.
+
+21. In how many ways can we position an HTML element? Or what are the permissible values of the position attribute?
