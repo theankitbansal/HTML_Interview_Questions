@@ -260,7 +260,5 @@ HTML allows event trigger actions in browsers using javascript or JQuery. There 
    </script>
 </html>
   
-HTML5 Interview Questions
-  
-31. What are some of the advantages of HTML5 over its previous versions?  
+
   
