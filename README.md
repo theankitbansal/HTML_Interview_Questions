@@ -22,3 +22,19 @@ No. HTML elements are defined by a starting tag, may contain some content and a 
 Tags are the primary component of the HTML that defines how the content will be structured/ formatted, whereas Attributes are used along with the HTML tags to define the characteristics of the element. For example, <p align=” center”>Interview questions</p>, in this the ‘align’ is the attribute using which we will align the paragraph to show in the center of the view.
 
 3. What are void elements in HTML?
+
+HTML elements which do not have closing tags or do not need to be closed are Void elements. For Example <br />, <img />, <hr />, etc.
+
+4. What is the advantage of collapsing white space?
+
+In HTML, a blank sequence of whitespace characters is treated as a single space character, Because the browser collapses multiple spaces into a single space character and this helps a developer to indent lines of text without worrying about multiple spaces and maintain readability and understandability of HTML codes.
+
+5. What are HTML Entities?
+
+In HTML some characters are reserved like ‘<’, ‘>’, ‘/’, etc. To use these characters in our webpage we need to use the character entities called HTML Entities. Below are a few mapping between the reserved character and its respective entity character to be used.
+
+![Screenshot (981)](https://user-images.githubusercontent.com/81725794/182524905-07cc67c8-3791-4b49-83b3-5c1b3ee7fd0b.png)
+
+6. What are different types of lists in HTML?
+
+![image](https://user-images.githubusercontent.com/81725794/182524968-d136cd7c-1f0a-4133-afe9-aff8af509288.png)
