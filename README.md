@@ -140,3 +140,55 @@ HTML provides two table attributes “rowspan” and “colspan” to make a cel
 Yes, it is possible using the “display” property with its value as “block”, to change the inline element into a block-level element.
 
 21. In how many ways can we position an HTML element? Or what are the permissible values of the position attribute?
+
+  There are mainly 7 values of position attribute that can be used to position an HTML element:
+
+static: Default value. Here the element is positioned according to the normal flow of the document.
+absolute: Here the element is positioned relative to its parent element. The final position is determined by the values of left, right, top, bottom.
+fixed: This is similar to absolute except here the elements are positioned relative to the <html> element.
+relative: Here the element is positioned according to the normal flow of the document and positioned relative to its original/ normal position.
+initial: This resets the property to its default value.
+inherit: Here the element inherits or takes the property of its parent.
+  
+22. In how many ways you can display HTML elements?
+  
+inline: Using this we can display any block-level element as an inline element. The height and width attribute values of the element will not affect.
+block: using this, we can display any inline element as a block-level element. 
+inline-block: This property is similar to inline, except by using the display as inline-block, we can actually format the element using height and width values.
+flex: It displays the container and element as a flexible structure. It follows flexbox property.
+inline-flex: It displays the flex container as an inline element while its content follows the flexbox properties.
+grid: It displays the HTML elements as a grid container.
+none: Using this property we can hide the HTML element.
+Below are some of the display types which are rarely used:
+
+table
+inline-table
+table-cell
+table-column
+table-row
+inline-grid
+list-item
+inherit
+initial
+table-caption
+  
+23. What is the difference between “display: none” and “visibility: hidden”, when used as attributes to the HTML element.
+  
+When we use the attribute “visibility: hidden” for an HTML element then that element will be hidden from the webpage but still takes up space. Whereas, if we use the “display: none” attribute for an HTML element then the element will be hidden, and also it won’t take up any space on the webpage.
+
+24. How to specify the link in HTML and explain the target attribute?
+  
+HTML provides a hyperlink - <a> tag to specify the links in a webpage. The ‘href’ attribute is used to specify the link and the ‘target’ attribute is used to specify, where do we want to open the linked document. The ‘target’ attribute can have the following values:
+
+_self: This is a default value. It opens the document in the same window or tab as it was clicked.
+_blank: It opens the document in a new window or tab.
+_parent: It opens the document in a parent frame.
+_top: It opens the document in a full-body window.
+  
+25. In how many ways can we specify the CSS styles for the HTML element?
+  
+There are three ways in which we can specify the styles for HTML elements:
+
+Inline: Here we use the ‘style’ attribute inside the HTML element.
+Internal: Here we use the <style> tag inside the <head> tag. To apply the style we bind the elements using ‘id’ or ‘class’ attributes.
+External: Here we use the <link> tag inside <head> tag to reference the CSS file into our HTML code. Again the binding between elements and styles is done using ‘id’ or ‘class’ attributes.
